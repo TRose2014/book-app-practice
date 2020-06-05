@@ -1,0 +1,22 @@
+{
+  "name": "book-app-practice",
+  "version": "1.0.0",
+  "description": "Node.js practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint ."
+  },
+  "author": "Tia Rose",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
